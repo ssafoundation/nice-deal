@@ -1,0 +1,485 @@
+@media only screen and (min-width: 1201px) and (max-width: 1400px) {
+    .main-wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+    ul.small-device {
+        display: none;
+    }
+    .product-category {
+        width: 18%;
+    }
+    .header-search-btn {
+        width: 14%;
+        transition: .5s;
+    }
+    .navigation-items ul li {
+        display: inline-block;
+        padding: 0px 5px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    ul.small-device {
+        display: none;
+    }
+    .main-wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .header-padding-area {
+        padding: 15px 0 15px 0;
+    }
+    .product-item {
+        border: 1px solid transparent;
+        position: relative;
+        margin-top: 20px;
+        padding: 15px 20px;
+        transition: .5s;
+        width: 100%;
+        min-height: 480px;
+    }
+    .header-brand i {
+        color: #ddd;
+        font-size: 25px;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        transition: .5s;
+    }
+    .header-brand img {
+        margin-left: 30px;
+        transition: .5s;
+    }
+    .header-profile-area i.fa.fa-heart-o {
+        display: none;
+    }
+    .navigation-category {
+        display: none;
+    }
+    h4.product-title {
+        font-size: 18px;
+    }
+    .product-bg-1,
+    .product-bg-2,
+    .product-bg-3,
+    .product-bg-4,
+    .product-bg-5,
+    .product-bg-6,
+    .product-bg-7,
+    .product-bg-8,
+    .product-bg-9,
+    .product-bg-10 {
+        width: 100%;
+        height: 250px;
+    }
+    .cart-coupon-area {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .main-wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .header-padding-area {
+        padding: 15px 0 15px 0;
+    }
+    .header-brand i {
+        color: #ddd;
+        font-size: 25px;
+        position: absolute;
+        left: 15px;
+        top: 10px;
+        transition: .5s;
+    }
+    .header-brand img {
+        margin-left: 30px;
+        transition: .5s;
+    }
+    .header-profile-area i.fa.fa-heart-o {
+        display: none;
+    }
+    .navigation-category {
+        display: none;
+    }
+    section.navigation-area {
+        border-bottom: 2px solid #ddd;
+        background: #00abc5;
+    }
+    ul.learge-device {
+        display: none;
+    }
+    ul.small-device {
+        display: block;
+    }
+    .cart-coupon-area {
+        width: 100%;
+    }
+    input.cart-coupon-code-submit {
+        font-size: 14px;
+    }
+    .add-cart-btn {
+        text-align: right;
+    }
+    .add-cart-btn input {
+        width: 95%;
+        font-size: 14px;
+    }
+    .cart-item-price-dec ul li {
+        display: inline-block;
+        padding: 0px 30px;
+        margin: 0;
+    }
+    .cart-chackout-btn input {
+        font-size: 14px;
+    }
+    .login-wrap {
+        text-align: left;
+        width: 50%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .main-wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .regiter-area-btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .register-wrap {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .header-padding-area {
+        padding: 15px 0 15px 0;
+    }
+    .header-brand i {
+        color: #ddd;
+        font-size: 25px;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        transition: .5s;
+    }
+    .header-brand img {
+        margin-left: 30px;
+        transition: .5s;
+    }
+    .header-profile-area i.fa.fa-heart-o {
+        display: none;
+    }
+    .navigation-category {
+        display: none;
+    }
+    section.navigation-area {
+        border-bottom: 2px solid #ddd;
+        background: #00abc5;
+    }
+    ul.learge-device {
+        display: none;
+    }
+    ul.small-device {
+        display: block;
+    }
+    .news-latter-wrap h5 {
+        margin-right: 150px;
+        margin-bottom: 0;
+        width: 125px;
+    }
+    .news-latter-wrap h5 {
+        margin-right: 0px;
+        margin-bottom: 0;
+        width: 110px;
+    }
+    .news-latter-wrap h5:before {
+        content: "\f1d9";
+        font-family: fontawesome;
+        color: #fff;
+        vertical-align: middle;
+        margin-right: 10px;
+        font-size: 16px;
+    }
+    .add-cart-btn input {
+        width: 100%;
+    }
+    .product-price-info h4 {
+        font-size: 18px;
+    }
+    .product-price-info ul li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+    .product-price-info input {
+        border: 1px solid #ddd;
+        width: 80px;
+        height: 40px;
+        border-radius: 25px;
+        outline: none;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .on-sele-product-dec h4 {
+        font-size: 14px;
+        color: #0866BF;
+    }
+    .top-rated-product-dec h4 {
+        font-size: 14px;
+        color: #0866BF;
+    }
+    .news-latter-wrap p {
+        color: #fff;
+        display: none;
+    }
+    .footer-icon img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .term-title h4 {
+        margin-bottom: 10px;
+        color: #444;
+    }
+    .term_condition-area {
+        margin-bottom: 30px;
+    }
+    .footer-account-area {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+    .footer-site-account-area-title h4 {
+        margin-bottom: 10px;
+    }
+    .cart-item-price-dec ul li {
+        display: inline-block;
+        padding: 0 10px;
+        margin: 0;
+    }
+    .cart-coupon-area {
+        border: 1px solid #ddd;
+        text-align: center;
+        width: 100%;
+        height: 50px;
+        padding: 0 15px 0 0;
+        position: relative;
+        border-radius: 25px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .login-wrap {
+        width: 70%;
+        margin: auto;
+    }
+    .register-btn {
+        width: 100%;
+    }
+    .login-btn {
+        width: 100%;
+    }
+    .forgot-bottom-btn {
+        text-align: left;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 575px) {
+    .header-brand i {
+        color: #ddd;
+        font-size: 25px;
+        position: absolute;
+        left: 0;
+        top: 10px;
+        transition: .5s;
+    }
+    .header-brand img {
+        margin-left: 10px;
+        transition: .5s;
+        width: 100px;
+        margin-top: 10px;
+    }
+    .register-btn-wrap {
+        width: 100%;
+    }
+    .register-wrap {
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .regiter-area-btn {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .header-profile-area i.fa.fa-heart-o {
+        display: none;
+    }
+    section.navigation-area {
+        border-bottom: 2px solid #ddd;
+        background: #00abc5;
+    }
+    ul.learge-device {
+        display: none;
+    }
+    ul.small-device {
+        display: block;
+    }
+    .navigation-items ul li {
+        display: inline;
+        padding: 0px 10px;
+    }
+    .header-padding-area {
+        padding: 15px 0 15px 0;
+    }
+    input.h-r-search {
+        width: 75%;
+        height: 40px;
+    }
+    .header-r-searchbar-wrap {
+        margin-top: 10px;
+    }
+    .navigation-category {
+        display: none;
+    }
+    .header-profile-area i {
+        color: #fff;
+        font-size: 20px;
+        margin: 0 5px;
+    }
+    .header-profile-area span {
+        font-weight: bold;
+        margin-left: -5px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .news-latter-wrap h5 {
+        margin-right: 0px;
+        width: 50%;
+    }
+    .cart-item-price-dec ul li {
+        display: inline-block;
+        padding: 0 2px;
+        margin: 0;
+        font-size: 14px;
+    }
+    input.cart-coupon-code-submit {
+        top: -2px;
+        background: #333e48;
+        width: 40%;
+        height: 50px;
+        color: #fff;
+        font-weight: 700;
+        position: absolute;
+        right: 0px;
+        font-size: 12px;
+    }
+    .cart-coupon-area {
+        border: 1px solid #ddd;
+        text-align: right;
+        width: 100%;
+        height: 50px;
+        padding: 0 15px 0 0;
+        position: relative;
+        border-radius: 25px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    .add-cart-btn {
+        margin-bottom: 20px;
+    }
+    .login-wrap input {
+        width: 100%;
+        height: 50px;
+        outline: none;
+        padding: 0px 20px;
+    }
+    .login-btn {
+        background: #ddd;
+        text-align: center;
+        margin-bottom: 20px;
+        height: 50px;
+        line-height: 41px;
+        font-size: 20px;
+        transition: .5s;
+        border-radius: 3px;
+    }
+    .login-wrap h1 {
+        text-align: center;
+        margin-bottom: 60px;
+        font-weight: normal;
+        color: #555;
+        margin-left: -30%;
+    }
+    .add-cart-btn input {
+        width: 100%;
+    }
+    .product-price-info h4 {
+        font-size: 18px;
+    }
+    .product-price-info ul li {
+        display: inline-block;
+        padding: 0 5px;
+    }
+    .product-price-info input {
+        border: 1px solid #ddd;
+        width: 80px;
+        height: 40px;
+        border-radius: 25px;
+        outline: none;
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .on-sele-product-dec h4 {
+        font-size: 14px;
+        color: #0866BF;
+    }
+    .top-rated-product-dec h4 {
+        font-size: 14px;
+        color: #0866BF;
+    }
+    .news-latter-wrap p {
+        color: #fff;
+        display: none;
+    }
+    .footer-icon img {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .term-title h4 {
+        margin-bottom: 10px;
+        color: #444;
+    }
+    .term_condition-area {
+        margin-bottom: 30px;
+    }
+    .footer-account-area {
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 26px;
+    }
+    .footer-site-account-area-title h4 {
+        margin-bottom: 10px;
+    }
+    section.login-area {
+        overflow: hidden;
+    }
+    .register-wrap input {
+        width: 100%;
+    }
+    .register-btn {
+        width: 100%;
+    }
+    .login-wrap {
+        text-align: left;
+        width: 100%;
+        margin: auto;
+    }
+    .login-btn {
+        width: 100%;
+    }
+    .forgot-bottom-btn {
+        text-align: left;
+    }
+}

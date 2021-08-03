@@ -1,0 +1,117 @@
+.login-padding-area {
+    padding: 100px 0;
+}
+
+.login-wrap {
+    text-align: left;
+    width: 50%;
+    margin: auto;
+}
+
+.login-wrap h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-weight: normal;
+    color: #555;
+}
+
+.login-wrap h6 {
+    padding: 15px 0;
+    color: #666;
+}
+
+.login-btn {
+    background: #ddd;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 30px;
+    font-size: 20px;
+    transition: .5s;
+    border-radius: 3px;
+}
+
+.login-wrap input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid #ddd;
+    outline: none;
+    padding: 5px;
+}
+
+.login-btn input {
+    border: navajowhite;
+    background: none;
+    text-transform: capitalize;
+    outline: none;
+    transition: .5s;
+}
+
+.register-btn {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: #ddd;
+    font-size: 20px;
+    transition: .5s;
+    line-height: 45px;
+    border-radius: 3px;
+}
+
+.register-btn a {
+    text-decoration: none;
+    transition: .5s;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.register-btn:hover {
+    background: #00abc5;
+    color: #fff;
+    transition: .5s;
+}
+
+.register-btn:hover a {
+    color: #fff;
+    transition: .5s;
+}
+
+.login-btn:hover {
+    background: #00abc5;
+    color: #fff;
+    transition: .5s;
+}
+
+.login-btn input {
+    transition: .5s;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.login-btn:hover input {
+    color: #fff;
+    transition: .5s;
+}
+
+.login-chack-box-btn {
+    position: relative;
+    margin-top: 20px;
+}
+
+.login-chack-box-btn input {
+    position: absolute;
+    top: 18px;
+    width: 20px!important;
+    height: 20px!important;
+}
+
+.login-chack-box-btn p {
+    margin: 0px 0px 0 30px;
+    padding: 15px 0px 15px 0;
+    font-weight: bold;
+    color: #666;
+}
+
+.forgot-bottom-btn a {
+    color: #666;
+}

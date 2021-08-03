@@ -1,0 +1,133 @@
+.register-padding-area {
+    padding: 100px 0;
+}
+
+.register-wrap {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.register-wrap h1 {
+    text-align: left;
+    margin-bottom: 60px;
+    font-weight: normal;
+    color: #555;
+}
+
+.register-wrap h6 {
+    padding: 15px 0;
+    color: #666;
+}
+
+.regiter-area-btn {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.register-btn-wrap {
+    width: 70%;
+}
+
+.register-btn {
+    background: #ddd;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    line-height: 41px;
+    font-size: 20px;
+    transition: .5s;
+    border-radius: 3px;
+}
+
+.register-wrap input {
+    width: 70%;
+    height: 50px;
+    border: 2px solid #ddd;
+    outline: none;
+    padding: 0px 15px;
+}
+
+.register-btn input {
+    border: navajowhite;
+    background: none;
+    text-transform: capitalize;
+    outline: none;
+    transition: .5s;
+}
+
+a.register-policy {
+    margin-top: 15px;
+    display: block;
+}
+
+.login-btn {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background: #ddd;
+    font-size: 20px;
+    transition: .5s;
+    line-height: 50px;
+    border-radius: 3px;
+}
+
+.login-btn a {
+    text-decoration: none;
+    transition: .5s;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.login-btn:hover {
+    background: #00abc5;
+    color: #fff;
+    transition: .5s;
+}
+
+.login-btn:hover a {
+    color: #fff;
+    transition: .5s;
+}
+
+.register-btn:hover {
+    background: #00abc5;
+    color: #fff;
+    transition: .5s;
+}
+
+.register-btn:hover a {
+    background: #00abc5;
+    color: #fff;
+    transition: .5s;
+}
+
+.register-btn a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.register-btn:hover input {
+    color: #fff;
+    transition: .5s;
+}
+
+.register-chack-box-btn {
+    position: relative;
+    margin-top: 20px;
+}
+
+.register-chack-box-btn input {
+    position: absolute;
+    top: 18px;
+    width: 20px!important;
+    height: 20px!important;
+}
+
+.register-chack-box-btn p {
+    margin: 0px 0px 0 30px;
+    padding: 15px 0px 15px 0;
+    font-weight: bold;
+    color: #666;
+}
